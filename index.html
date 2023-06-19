@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Grid
+    </title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            /* Three equal columns */
+            grid-gap: 10px;
+            /* Spacing between cells */
+        }
+
+        .grid-header,
+        .grid-item {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .grid-header {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-header">Header 1</div>
+        <div class="grid-header">Header 2</div>
+        <div class="grid-header">Header 3</div>
+        <div class="grid-item">Row 1, Column 1</div>
+        <div class="grid-item">Row 1, Column 2</div>
+        <div class="grid-item">Row 1, Column 3</div>
+        <div class="grid-item">Row 2, Column 1</div>
+        <div class="grid-item">Row 2, Column 2</div>
+        <div class="grid-item">Row 2, Column 3</div>
+    </div>
+
+</body>
+
+</html>
